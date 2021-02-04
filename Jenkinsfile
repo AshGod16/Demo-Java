@@ -11,6 +11,12 @@ pipeline {
                 echo 'Hello World Testing Testing 1 2 3'
             }
         }
+        stage('Build') {
+            steps {
+                echo 'Hello World Testing Testing 1 2 3'
+            }
+        }
         
     }
+    
 }
