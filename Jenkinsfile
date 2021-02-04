@@ -17,6 +17,12 @@ pipeline {
             }
         }
         
+        stage('Deploy') {
+            steps {
+                sh 'sudo mvn spring-boot:run'
+            }
+        }
+        
     }
     
 }
