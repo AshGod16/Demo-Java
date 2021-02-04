@@ -19,7 +19,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                sh 'mvn spring-boot:run'
+                sh 'mvn deploy'
             }
         }
         
